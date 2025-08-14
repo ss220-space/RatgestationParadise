@@ -211,7 +211,7 @@
 		usr.visible_message("<span class='warning'>[usr] changes the look of his hardsuit!</span>", "<span class='notice'>Turning off the disguise..</span>")
 		return
 	var/list/choices = list(
-		"EVA" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "EVA"),
+		"EVA" = image(icon = 'icons/mob/mob.dmi', icon_state = "EVA"),
 		"Mining Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "mining"),
 		"Medical Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "medical"),
 		"Security Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "security"),
