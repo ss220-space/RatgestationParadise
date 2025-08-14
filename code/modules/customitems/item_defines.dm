@@ -1189,7 +1189,7 @@
 /obj/item/clothing/under/fluff/honourable // MrBarrelrolll: Maximus Greenwood
 	name = "Viridi Protegat"
 	desc = "A set of chainmail adorned with a hide mantle. \"Greenwood\" is engraved into the right breast."
-	icon = 'icons/obj/clothing/uniforms.dmi'
+	icon = 'icons/obj/clothing/jumpsuit.dmi'
 	icon_state = "roman"
 	item_state = "maximus_armor"
 	item_color = "maximus_armor"
@@ -1299,7 +1299,7 @@
 /obj/item/clothing/under/fluff/arachno_suit
 	name = "Arachno-Man costume"
 	desc = "It's what an evil genius would design if he switched brains with the Amazing Arachno-Man. Actually, he'd probably add weird tentacles that come out the back, too."
-	icon = 'icons/obj/clothing/uniforms.dmi'
+	icon = 'icons/obj/clothing/jumpsuit.dmi'
 	icon_state = "superior_suit"
 	item_state = "superior_suit"
 	item_color = "superior_suit"
@@ -1382,7 +1382,7 @@
 /obj/item/clothing/suit/armor/vest/fluff/tactical //m3hillus: Medusa Schlofield
 	name = "tactical armor vest"
 	desc = "A tactical vest with armored plate inserts."
-	icon = 'icons/obj/clothing/ties.dmi'
+	icon = 'icons/obj/clothing/accessory.dmi'
 	icon_state = "vest_black"
 	item_state = "vest_black"
 	sprite_sheets = null
@@ -1639,7 +1639,7 @@
 	icon = 'icons/obj/custom_items.dmi'
 	lefthand_file = 'icons/mob/inhands/fluff_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/fluff_righthand.dmi'
-	sprite_sheets = list(SPECIES_VOX = 'icons/mob/clothing/species/vox/uniform.dmi')
+	sprite_sheets = list(SPECIES_VOX = 'icons/mob/clothing/species/vox/jumpsuit.dmi')
 	icon_state = "kiaoutfit"
 	item_state = "kiaoutfit"
 	item_color = "kiaoutfit"
@@ -1690,7 +1690,7 @@
 	desc = "A simple black dress with a white undercoat, tied with a blue ribbon."
 	lefthand_file = 'icons/mob/inhands/fluff_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/fluff_righthand.dmi'
-	sprite_sheets = list(SPECIES_VOX = 'icons/mob/clothing/species/vox/uniform.dmi')
+	sprite_sheets = list(SPECIES_VOX = 'icons/mob/clothing/species/vox/jumpsuit.dmi')
 	icon = 'icons/obj/custom_items.dmi'
 	icon_state = "kikeridress"
 	item_state = "kikeridress"
