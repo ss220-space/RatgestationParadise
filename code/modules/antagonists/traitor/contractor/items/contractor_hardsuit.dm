@@ -212,10 +212,10 @@
 		return
 	var/list/choices = list(
 		"EVA" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "EVA"),
-		"Mining Hardsuit" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "mining"),
-		"Medical Hardsuit" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "medical"),
-		"Security Hardsuit" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "security"),
-		"Engineering Hardsuit" = image(icon = 'icons/mob/clothing/contractor.dmi', icon_state = "engineering")
+		"Mining Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "mining"),
+		"Medical Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "medical"),
+		"Security Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "security"),
+		"Engineering Hardsuit" = image(icon = 'icons/mob/mob.dmi', icon_state = "engineering")
 	)
 	var/selected_chameleon = show_radial_menu(usr, loc, choices, require_near = TRUE)
 	switch(selected_chameleon)
