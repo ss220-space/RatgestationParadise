@@ -449,7 +449,7 @@
 	desc = "The brim of the hat is as sharp as the division between 0 and 1. It makes a mighty throwing weapon."
 	icon_state = "fedora"
 	slot_flags = ITEM_SLOT_HEAD
-	icon = 'icons/obj/clothing/hats.dmi'
+	icon = 'icons/obj/clothing/head.dmi'
 	force = 0
 	throw_speed = 4
 	throw_range = 7
