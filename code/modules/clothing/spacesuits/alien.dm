@@ -31,7 +31,7 @@
 
 //Unathi space gear. Huge and restrictive.
 /obj/item/clothing/head/helmet/space/unathi
-	icon = 'icons/obj/clothing/species/unathi/hats.dmi'
+	icon = 'icons/obj/clothing/species/unathi/head.dmi'
 	species_restricted = list(SPECIES_UNATHI)
 	sprite_sheets = list(
 		SPECIES_UNATHI = 'icons/mob/clothing/species/unathi/head.dmi',
@@ -96,7 +96,7 @@
 	armor = list(melee = 40, bullet = 40, laser = 30, energy = 15, bomb = 30, bio = 30, rad = 30, fire = 80, acid = 85)
 	clothing_flags = STOPSPRESSUREDMAGE
 	flags_cover = HEADCOVERSEYES
-	icon = 'icons/obj/clothing/species/vox/hats.dmi'
+	icon = 'icons/obj/clothing/species/vox/head.dmi'
 	species_restricted = list(SPECIES_VOX,SPECIES_VOX_ARMALIS)
 	sprite_sheets = list(
 		SPECIES_VOX = 'icons/mob/clothing/species/vox/head.dmi',

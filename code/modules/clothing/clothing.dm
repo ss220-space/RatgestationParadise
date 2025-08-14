@@ -524,7 +524,7 @@ BLIND     // can't see anything
 /obj/item/clothing/head
 	name = "head"
 	gender = MALE
-	icon = 'icons/obj/clothing/hats.dmi'
+	icon = 'icons/obj/clothing/head.dmi'
 	body_parts_covered = HEAD
 	slot_flags = ITEM_SLOT_HEAD
 	var/blockTracking // Do we block AI tracking?
