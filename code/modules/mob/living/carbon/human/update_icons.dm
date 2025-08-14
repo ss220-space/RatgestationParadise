@@ -333,7 +333,7 @@ GLOBAL_LIST_EMPTY(damage_icon_parts)
 		return
 
 	//base icons
-	var/icon/head_accessory_standing = icon('icons/mob/clothing/body_accessory.dmi', "accessory_none_s")
+	var/icon/head_accessory_standing = icon('icons/mob/mob.dmi', "accessory_none_s")
 	var/icon/head_accessory_s = icon(head_accessory.icon, "[head_accessory.icon_state]_s")
 	if(head_accessory.do_colouration)
 		head_accessory_s.Blend(head_organ.headacc_colour, ICON_ADD)
