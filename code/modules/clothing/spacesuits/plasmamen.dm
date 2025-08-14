@@ -34,7 +34,7 @@
 	flags_inv = HIDEHEADSETS|HIDEGLASSES|HIDENAME
 	flags_cover = HEADCOVERSMOUTH|HEADCOVERSEYES
 	visor_flags_inv = HIDEGLASSES|HIDENAME
-	icon = 'icons/obj/clothing/species/plasmaman/hats.dmi'
+	icon = 'icons/obj/clothing/species/plasmaman/head.dmi'
 	species_restricted = list(SPECIES_PLASMAMAN)
 	sprite_sheets = list(SPECIES_PLASMAMAN = 'icons/mob/clothing/species/plasmaman/head.dmi')
 	var/upgradable = FALSE
