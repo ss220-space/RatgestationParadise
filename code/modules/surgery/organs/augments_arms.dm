@@ -225,7 +225,7 @@
 	origin_tech = "materials=3;engineering=4;biotech=3;powerstorage=4"
 	contents = newlist(/obj/item/screwdriver/cyborg, /obj/item/wrench/cyborg, /obj/item/weldingtool/largetank/cyborg,
 		/obj/item/crowbar/cyborg, /obj/item/wirecutters/cyborg, /obj/item/multitool/cyborg)
-	action_icon = list(/datum/action/item_action/organ_action/toggle = 'icons/obj/clothing/belts.dmi')
+	action_icon = list(/datum/action/item_action/organ_action/toggle = 'icons/obj/clothing/belt.dmi')
 	action_icon_state = list(/datum/action/item_action/organ_action/toggle = "utilitybelt")
 
 /obj/item/organ/internal/cyberimp/arm/toolset/l
