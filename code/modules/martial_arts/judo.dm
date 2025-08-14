@@ -30,7 +30,7 @@
 	desc = "Позволяет вам использовать Корпоративное Дзюдо. \
 			По статистике собранной независимым исследователем, \
 			владеющие этим поясом на 40% чаще покупают продукцию Мистера Чанга."
-	icon = 'icons/obj/clothing/belts.dmi'
+	icon = 'icons/obj/clothing/belt.dmi'
 	lefthand_file = 'icons/mob/inhands/equipment/belt_lefthand.dmi'
 	righthand_file = 'icons/mob/inhands/equipment/belt_righthand.dmi'
 	icon_state = "judobelt"
