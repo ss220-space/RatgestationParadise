@@ -20,7 +20,7 @@
 /obj/item/clothing/accessory/Initialize(mapload)
 	. = ..()
 	if(icon_exists('icons/obj/clothing/ties_overlay.dmi', icon_state))
-		acc_overlay = mutable_appearance('icons/obj/clothing/ties_overlay.dmi', icon_state)
+		acc_overlay = mutable_appearance('icons/mob/clothing/accessory.dmi', icon_state)
 
 
 /obj/item/clothing/accessory/Destroy()
