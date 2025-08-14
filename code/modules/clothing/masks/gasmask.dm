@@ -221,10 +221,10 @@
 							"Женственная форма" = /obj/item/clothing/mask/gas/clown_hat/sexy,
 							"Безумная форма" = /obj/item/clothing/mask/gas/clown_hat/joker,
 							"Радужная форма" = /obj/item/clothing/mask/gas/clown_hat/rainbow)
-	var/static/list/mask_icons = list("Истинная форма" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "clown"),
-							"Женственная форма" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "sexyclown"),
-							"Безумная форма" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "joker"),
-							"Радужная форма" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "rainbow"))
+	var/static/list/mask_icons = list("Истинная форма" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "clown"),
+							"Женственная форма" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "sexyclown"),
+							"Безумная форма" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "joker"),
+							"Радужная форма" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "rainbow"))
 
 	flags_cover = MASKCOVERSEYES
 	resistance_flags = FLAMMABLE
@@ -346,12 +346,12 @@
 							"Равнодушная маска" = /obj/item/clothing/mask/gas/mime/clueless,
 							"Маска Трагика" = /obj/item/clothing/mask/gas/mime/morutopia,
 							"Сексуальная маска" = /obj/item/clothing/mask/gas/mime/sexy)
-	var/static/list/mask_icons = list("Счастливая маска" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "happymask"),
-							"Печальная маска" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "sadmask"),
-							"Злобная маска" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "angrymask"),
-							"Равнодушная маска" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "cluelessmask"),
-							"Маска Трагика" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "morutopia"),
-							"Сексуальная маска" = image(icon = 'icons/obj/clothing/masks.dmi', icon_state = "sexymime"))
+	var/static/list/mask_icons = list("Счастливая маска" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "happymask"),
+							"Печальная маска" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "sadmask"),
+							"Злобная маска" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "angrymask"),
+							"Равнодушная маска" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "cluelessmask"),
+							"Маска Трагика" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "morutopia"),
+							"Сексуальная маска" = image(icon = 'icons/obj/clothing/mask.dmi', icon_state = "sexymime"))
 
 	flags_cover = MASKCOVERSEYES
 	resistance_flags = FLAMMABLE

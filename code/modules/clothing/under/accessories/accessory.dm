@@ -1,7 +1,7 @@
 /obj/item/clothing/accessory
 	name = "tie"
 	desc = "A neosilk clip-on tie."
-	icon = 'icons/obj/clothing/ties.dmi'
+	icon = 'icons/obj/clothing/accessory.dmi'
 	icon_state = "bluetie"
 	item_state = ""	//no inhands
 	slot_flags = ITEM_SLOT_ACCESSORY

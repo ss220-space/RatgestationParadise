@@ -709,7 +709,7 @@
 	desc = "Bleck security snood. Excellent replacement for a balaclava."
 	icon_state = "secscarf"
 	item_state = "secscarf"
-	icon = 'icons/obj/clothing/masks.dmi'
+	icon = 'icons/obj/clothing/mask.dmi'
 	flags_inv = HIDENAME|HIDEFACIALHAIR
 	flags_cover = MASKCOVERSMOUTH
 	can_toggle = TRUE
