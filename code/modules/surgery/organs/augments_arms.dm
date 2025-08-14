@@ -387,7 +387,7 @@
 	icon_state = "janitor_arm_implant"
 	contents = newlist(/obj/item/mop/advanced, /obj/item/soap, /obj/item/lightreplacer, /obj/item/holosign_creator/janitor, /obj/item/melee/flyswatter, /obj/item/reagent_containers/spray/cleaner/safety)
 	origin_tech = "materials=3;engineering=4;biotech=3"
-	action_icon = list(/datum/action/item_action/organ_action/toggle = 'icons/obj/clothing/belts.dmi')
+	action_icon = list(/datum/action/item_action/organ_action/toggle = 'icons/obj/clothing/belt.dmi')
 	action_icon_state = list(/datum/action/item_action/organ_action/toggle = "janibelt")
 
 /obj/item/organ/internal/cyberimp/arm/janitorial/l
