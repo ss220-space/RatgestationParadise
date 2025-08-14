@@ -489,7 +489,7 @@ GLOBAL_LIST_EMPTY(damage_icon_parts)
 	remove_overlay(FIRE_LAYER)
 	if(on_fire || HAS_TRAIT(src, TRAIT_FAKE_FIRE))
 		if(!overlays_standing[FIRE_LAYER])
-			overlays_standing[FIRE_LAYER] = mutable_appearance(FIRE_DMI(src), icon_state = "Standing", layer = -FIRE_LAYER), 'icons/mob/mob.dmi'
+			overlays_standing[FIRE_LAYER] = mutable_appearance(FIRE_DMI(src), icon_state = "Standing", layer = -FIRE_LAYER)
 	apply_overlay(FIRE_LAYER)
 
 
