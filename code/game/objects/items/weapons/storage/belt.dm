@@ -2,7 +2,7 @@
 	name = "belt"
 	desc = "Can hold various things."
 	gender = MALE
-	icon = 'icons/obj/clothing/belts.dmi'
+	icon = 'icons/obj/clothing/belt.dmi'
 	icon_state = "utilitybelt"
 	item_state = "utility"
 	lefthand_file = 'icons/mob/inhands/equipment/belt_lefthand.dmi'
