@@ -149,7 +149,7 @@
 	magical = TRUE
 	species_restricted = null
 	sprite_sheets = list(
-		SPECIES_VULPKANIN = 'icons/mob/clothing/species/vulpkanin/helmet.dmi'
+		SPECIES_VULPKANIN = 'icons/mob/clothing/species/vulpkanin/headt.dmi'
 		)
 
 /obj/item/clothing/suit/space/cult
