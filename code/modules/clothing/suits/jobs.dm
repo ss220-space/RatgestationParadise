@@ -513,7 +513,7 @@
 /obj/item/clothing/suit/suspenders
 	name = "suspenders"
 	desc = "Two braids to support your jeans. Weared by noire-detectives. Or skinheads. Now comes in any color!"
-	icon = 'icons/obj/clothing/belts.dmi'
+	icon = 'icons/obj/clothing/belt.dmi'
 	icon_state = "suspenders"
 	blood_overlay_type = "armor" //it's the less thing that I can put here
 	var/paintable = TRUE
