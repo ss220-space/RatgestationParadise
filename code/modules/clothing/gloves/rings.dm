@@ -6,7 +6,7 @@
 	clothing_flags = NONE
 	icon_state = "ironring"
 	item_state = ""
-	icon = 'icons/obj/clothing/rings.dmi'
+	icon = 'icons/obj/clothing/gloves.dmi'
 	pickup_sound = 'sound/items/handling/pickup/ring_pickup.ogg'
 	drop_sound = 'sound/items/handling/drop/ring_drop.ogg'
 	var/fluff_material = FALSE	//If true, will ignore the material when examining
