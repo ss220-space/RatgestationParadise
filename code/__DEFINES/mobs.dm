@@ -389,8 +389,6 @@
 #define MAX_EYE_BLURRY_FILTER_SIZE 5
 #define EYE_BLUR_TO_FILTER_SIZE_MULTIPLIER 0.1
 
-#define FIRE_DMI(target) (is_monkeybasic(target) ? 'icons/mob/monkey.dmi' : 'icons/mob/OnFire.dmi')
-
 ///Define for spawning megafauna instead of a mob for cave gen
 #define SPAWN_MEGAFAUNA "bluh bluh huge boss"
 
