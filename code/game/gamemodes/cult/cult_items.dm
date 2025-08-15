@@ -31,6 +31,7 @@
 	sharp = TRUE
 	hitsound = 'sound/weapons/bladeslice.ogg'
 	attack_verb = list("атаковал", "полоснул", "уколол", "поранил", "порезал")
+	sprite_sheets_inhand = list(SPECIES_SKRELL = 'icons/mob/Inhand/obj/species/skrell/cult_items') // To stop skrell stabbing themselves in the head
 
 /obj/item/melee/cultblade/Initialize(mapload)
 	. = ..()
