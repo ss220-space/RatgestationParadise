@@ -492,7 +492,7 @@ LIGHTERS ARE IN LIGHTERS.DM
 	name = "cigarette butt"
 	desc = "Обмякшие останки выкуренной сигареты."
 	gender = MALE
-	icon = 'icons/obj/clothing/masks.dmi'
+	icon = 'icons/obj/clothing/mask.dmi'
 	icon_state = "cigbutt"
 	item_state = "cigbutt"
 	w_class = WEIGHT_CLASS_TINY
