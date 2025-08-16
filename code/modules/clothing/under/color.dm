@@ -89,9 +89,17 @@
 	item_state = "o_suit"
 	item_color = "orange"
 
-/obj/item/clothing/under/color/orange/prison
+/obj/item/clothing/under/color/orange/prison 
 	name = "old prison jumpsuit"
-	ru_names = list(
+	desc = "Старая одежда заключенных из Нанотрейзен. Датчики костюма заблокированы в максимальном режиме отслеживания." 
+	icon_state = "orange"
+	item_state = "o_suit"
+	item_color = "orange"
+	has_sensor = 2
+	sensor_mode = 3
+
+/obj/item/clothing/under/color/orange/prison/get_ru_names()
+	return list(
 		NOMINATIVE = "старый тюремный комбинезон",
 		GENITIVE = "старый тюремный комбинезон",
 		DATIVE = "старому тюремному комбинезону",
@@ -99,16 +107,18 @@
 		INSTRUMENTAL = "старым тюремным комбинезоном",
 		PREPOSITIONAL = "старом тюремном комбинезоне"
 	)
-	desc = "Старая одежда заключенных из Нанотрейзен. Датчики костюма заблокированы в максимальном режиме отслеживания."
-	icon_state = "orange"
-	item_state = "o_suit"
-	item_color = "orange"
-	has_sensor = 2
-	sensor_mode = 3
 
 /obj/item/clothing/under/prison
 	name = "prison jumpsuit"
-	ru_names = list(
+	desc = "Cтандартная одежда заключенных из Нанотрейзен. Датчики костюма заблокированы в максимальном режиме отслеживания."
+	icon_state = "prison"
+	item_state = "prison"
+	item_color = "prison"
+	has_sensor = 2
+	sensor_mode = 3
+
+/obj/item/clothing/under/prison/get_ru_names()
+	return list(
 		NOMINATIVE = "тюремный комбинезон",
 		GENITIVE = "тюремный комбинезон",
 		DATIVE = "тюремному комбинезону",
@@ -116,12 +126,6 @@
 		INSTRUMENTAL = "тюремным комбинезоном",
 		PREPOSITIONAL = "тюремном комбинезоне"
 	)
-	desc = "Cтандартная одежда заключенных из Нанотрейзен. Датчики костюма заблокированы в максимальном режиме отслеживания."
-	icon_state = "prison"
-	item_state = "prison"
-	item_color = "prison"
-	has_sensor = 2
-	sensor_mode = 3
 
 /obj/item/clothing/under/color/pink
 	name = "pink jumpsuit"
@@ -163,12 +167,12 @@
 	item_color = "psyche"
 
 	sprite_sheets = list(
-		SPECIES_VOX = 'icons/mob/clothing/species/vox/jumpsuit.dmi',
-		SPECIES_MONKEY = 'icons/mob/clothing/species/monkey/jumpsuit.dmi',
-		SPECIES_FARWA = 'icons/mob/clothing/species/monkey/jumpsuit.dmi',
-		SPECIES_WOLPIN = 'icons/mob/clothing/species/monkey/jumpsuit.dmi',
-		SPECIES_NEARA = 'icons/mob/clothing/species/monkey/jumpsuit.dmi',
-		SPECIES_STOK = 'icons/mob/clothing/species/monkey/jumpsuit.dmi'
+		SPECIES_VOX = 'icons/mob/clothing/species/vox/uniform.dmi',
+		SPECIES_MONKEY = 'icons/mob/clothing/species/monkey/uniform.dmi',
+		SPECIES_FARWA = 'icons/mob/clothing/species/monkey/uniform.dmi',
+		SPECIES_WOLPIN = 'icons/mob/clothing/species/monkey/uniform.dmi',
+		SPECIES_NEARA = 'icons/mob/clothing/species/monkey/uniform.dmi',
+		SPECIES_STOK = 'icons/mob/clothing/species/monkey/uniform.dmi'
 		)
 
 /obj/item/clothing/under/color/lightblue
