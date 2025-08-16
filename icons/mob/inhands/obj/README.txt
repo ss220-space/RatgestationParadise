@@ -1,7 +1,7 @@
 Шаг 1: Анализируйте путь объекта
 
 Возьмите полный путь объекта из кода:
-/obj/item/тип_предмета/подкатегория/имя_объекта
+code\game\gamemodes\cult\cult_items.dm
 
 Шаг 2: Постройте путь спрайта
 
@@ -18,5 +18,6 @@ icons/mob/inhands/obj (для других предметов)
 
 Добавляем суффикс:
 
-icons/mob/inhands/obj + melee/cultblade
+icons/mob/inhands/obj + melee/cultblade.dmi + _left/right
+
 
