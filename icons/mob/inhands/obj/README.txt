@@ -1,11 +1,22 @@
-Просто повторяйте путь спрайта беря пример с его объекта.
+Шаг 1: Анализируйте путь объекта
 
-Пример:
-code\game\gamemodes\cult\cult_items.dm
+Возьмите полный путь объекта из кода:
+/obj/item/тип_предмета/подкатегория/имя_объекта
+
+Шаг 2: Постройте путь спрайта
+
+Уберите корневую часть /obj/item/
+
+Добавьте префикс папки спрайтов:
+icons/mob/inhands/clothing (для одежды)
+icons/mob/inhands/obj (для других предметов)
+
+Смотрим на путь объекта:
 /obj/item/melee/cultblade
-превращается в 
-/obj/cult_items/melee/cultblades_left и cultbladeright)
 
-Просто, понятно, эффективно.
+Уберите корневую часть /obj/item/
 
+Добавляем суффикс:
+
+icons/mob/inhands/obj + melee/cultblade
 
